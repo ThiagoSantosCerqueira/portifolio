@@ -2,25 +2,53 @@ body{
   background-image: linear-gradient(180deg,rgb(251, 255, 0), rgb(255, 179, 0), rgb(255, 60, 0));
 }
 
-header{
-  background-color: rgb(26, 0, 0);
-  /* Esta propriedade altera a cor de fundo do elemento selecionado */
-  color:beige
-  margin 100px 20px;
-}
+  /* header */
+    header{
+      background-color: rgb(26, 0, 0);
+      /* Esta propriedade altera a cor de fundo do elemento selecionado */
+      color:beige;
+      padding: 100px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: x-large;
+    }
+    header img{
+      width: 100px;
+      margin-bottom: 40px;
+    }
+    header ul {
+      text-transform: uppercase;
+    }
+    header nav li{
+      display: inline-block;
+      padding: 20px ;
+    }
+    header nav li:hover{
+      color:black;
+      background-color:aliceblue;
+    }
 
+/* sempre que for pegar uma classe trzer o (.)*/
+
+/* content */
+.content h1 {
+text-align: center;
+}
+.contente
+
+/* logos */
 .logos img{
   width: 200px;
   display: flex;
+  align-items: center;
 }
-
 .logos{
   text-align: center;
+  display: flex;
 }
 
+/* imagens */
 img{
   width: 300px;
 }
-
-
-
